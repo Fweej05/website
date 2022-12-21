@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+   <link rel="stylesheet" href="../css/style.css">
+   <title>Portfolio</title>
+</head>
+
+<body>
+   <header class="header">
+      <nav class="nav__wrapper">
+         <a href="#" class="nav__logo">Portfolio</a>
+         <div class="nav__menu">
+            <ul class="nav__list">
+               <li class="nav__item"> <a href="./home.html" class="nav__link">Home</a> </li>
+               <li class="nav__item"> <a href="./about.html" class="nav__link">About</a> </li>
+               <li class="nav__item"> <a href="./projects.html" class="nav__link">Projects</a> </li>
+               <li class="nav__item"> <a href="./blog.html" class="nav__link">Blog</a> </li>
+               <!-- <li class="nav__item"> <a href="./contact.html" class="nav__link">Contact</a> </li> -->
+            </ul>
+            <i class="uil uil-bars nav__close icon__btn" onclick="openClose()"></i>
+         </div>
+      </nav>
+   </header>
+   <main class="main">
+      <section class="contact section" id="contact">
+         <div class="contact__wrapper mx__auto">
+            <form action="" method="post" class="contact__form">
+               <div class="name">
+                  <label for="name"></label>
+                  <input type="text" placeholder="Name" name="name" id="name__input" autocomplete="off" required>
+               </div>
+               <div class="email">
+                  <label for="email"></label>
+                  <input type="email" placeholder="Email" name="email" id="email__input" autocomplete="off" required>
+               </div>
+               <div class="subject">
+                  <label for="subject"></label>
+                  <input type="text" placeholder="Subject" name="subject" id="subject__input" autocomplete="off"
+                     required>
+               </div>
+               <div class="message">
+                  <label for="message"></label>
+                  <textarea name="message" placeholder="Message" id="message__input" cols="10" rows="1"
+                     autocomplete="off"></textarea>
+               </div>
+               <div class="submit">
+                  <a href="#" class="redirect__link">Send message</a>
+               </div>
+            </form>
+         </div>
+      </section>
+   </main>
+   <script src="../js/script.js"></script>
+</body>
+
+</html>

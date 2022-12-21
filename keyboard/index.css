@@ -1,0 +1,63 @@
+* {
+   margin: 0;
+   padding: 0;
+   user-select: none;
+}
+
+.container {
+   background-color: #101010;
+}
+
+button {
+   width: 55px;
+   height: 55px;
+   border: none;
+   border-radius: 5px;
+}
+
+.keyboard {
+   position: fixed;
+   text-align: center;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   background: #3d3d3d;
+   padding: 16px 16px 32px 16px;
+   border-radius: 10px;
+}
+
+.small {
+   width: 83px;
+}
+
+.medium {
+   width: 112px;
+}
+
+.large {
+   width: 142px;
+}
+
+.massive {
+   width: 467px;
+}
+
+.primary {
+   background: #bbbbbb;
+}
+
+.secondary {
+   background: #888888;
+}
+
+.highlight {
+   background: #616161;
+}
+
+.accent {
+   background: #29c1c1;
+}
+
+.pressed {
+   background-color: #ff0000;
+}
